@@ -46,10 +46,7 @@ func InitRoutes(routes *gin.Engine) {
 	}
 	// serve static pages under static folder
 	routes.GET("/static/*filepath", func(ctx *gin.Context) {
-		ctx.File("templates/static/" + ctx.Param("filepath"))
-	})
-	routes.GET("/media/*filepath", func(ctx *gin.Context) {
-		ctx.File("templates/media/" + ctx.Param("filepath"))
+		ctx.File("static/" + ctx.Param("filepath"))
 	})
 	// Home Page
 	routes.GET("/", func(ctx *gin.Context) {

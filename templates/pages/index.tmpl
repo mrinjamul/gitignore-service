@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  {{ template "head.tmpl" . }}
+  <body>
+    <div>
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/static/favicon.png" alt="Gitignore" width="42" height="42">
+            <span class="ms-3 h4 mb-0">{{ .appname }}</span>
+          </a>
+        </div>
+      </nav>
+      <div class="container">
+        <main class="container my-5">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <!-- Add search bar -->
+               <form action="/api/gi/get" method="GET">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Search..."
+                      aria-label="Search"
+                      name="for"
+                      required
+                    />
+                    <button class="btn btn-primary" type="submit">Search</button>
+                  </div>
+                </form>
+                <hr class="my-5">
+                <!-- Add features -->
+              <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="card text-center">
+                    <div class="card-body">
+                      <i class="bi bi-file-earmark-text fs-3 mb-3"></i>
+                      <h5 class="card-title">Multiple Language Support</h5>
+                      <p class="card-text">Generate .gitignore files for a wide range of programming languages.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="card text-center">
+                    <div class="card-body">
+                      <i class="bi bi-cloud-arrow-down fs-3 mb-3"></i>
+                      <h5 class="card-title">Downloadable Files</h5>
+                      <p class="card-text">Download the generated .gitignore file directly to your computer.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="card text-center">
+                    <div class="card-body">
+                      <i class="bi bi-shield-check fs-3 mb-3"></i>
+                      <h5 class="card-title">Secure and Reliable</h5>
+                      <p class="card-text">Ensure your projects are protected with proper .gitignore configurations.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      {{ template "footer.tmpl" . }}
+    </div>
+      {{ template "commonscript.tmpl" . }}
+  </body>
+</html>
