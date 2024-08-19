@@ -1,5 +1,5 @@
 # Start from the latest golang base image
-FROM golang:latest as builder
+FROM golang:latest AS builder
 
 # Add Maintainer Info
 LABEL maintainer="Injamul Mohammad Mollah <mrinjamul@gmail.com>"
@@ -29,8 +29,9 @@ WORKDIR /root/
 
 # Copy the Pre-built binary file from the previous stage
 COPY --from=builder /app/main .
-# Copy env from source code
-COPY --from=builder /app/.env .
+COPY --from=builder /app/gitignores /root/gitignores
+COPY --from=builder /app/templates /root/templates
+COPY --from=builder /app/static /root/static
 
 # Expose port 8080 to the outside world
 EXPOSE 8080

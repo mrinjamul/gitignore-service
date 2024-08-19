@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="static/favicon.png" width="100px" alt="logo" />
   <h1><code>gitignore-service</code></h1>
   <p>
     <strong>A web service to help you with [dot] gitgnore files for git repositories.</strong>
