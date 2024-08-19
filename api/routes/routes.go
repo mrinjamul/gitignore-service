@@ -53,9 +53,16 @@ func InitRoutes(routes *gin.Engine) {
 	// API Routes
 	api := routes.Group("/api")
 	{
-		api.GET("/", func(ctx *gin.Context) {
-			svc.APIService().Welcome(ctx)
-		})
+		gitignore := api.Group("/gi")
+		{
+			gitignore.GET("/", func(ctx *gin.Context) {
+				svc.GitignoreService().List(ctx)
+			})
+			gitignore.GET("/get", func(ctx *gin.Context) {
+				svc.GitignoreService().Get(ctx)
+			})
+		}
+
 		api.GET("/health", func(ctx *gin.Context) {
 			svc.HealthCheckService().Status(ctx)
 		})

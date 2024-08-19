@@ -7,10 +7,12 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/mrinjamul/gitignore-service/api/routes"
+	"github.com/mrinjamul/gitignore-service/utils"
 )
 
 var (
 	startTime time.Time = time.Now()
+	dataPath  string    = "gitignores"
 )
 
 func main() {
@@ -21,6 +23,11 @@ func main() {
 		port = ":" + os.Getenv("PORT")
 
 	}
+
+	// pre-tasks
+	// generating metadata
+	utils.GenerateMetadata(dataPath)
+
 	// Set the router as the default one shipped with Gin
 	server := gin.Default()
 	// Initialize the routes

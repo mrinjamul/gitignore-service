@@ -1,0 +1,919 @@
+[
+  {
+    "filename": "Actionscript.gitignore",
+    "location": "gitignores\\Actionscript.gitignore",
+    "name": "Actionscript",
+    "lower_name": "actionscript",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Ada.gitignore",
+    "location": "gitignores\\Ada.gitignore",
+    "name": "Ada",
+    "lower_name": "ada",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Agda.gitignore",
+    "location": "gitignores\\Agda.gitignore",
+    "name": "Agda",
+    "lower_name": "agda",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Android.gitignore",
+    "location": "gitignores\\Android.gitignore",
+    "name": "Android",
+    "lower_name": "android",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "AppEngine.gitignore",
+    "location": "gitignores\\AppEngine.gitignore",
+    "name": "AppEngine",
+    "lower_name": "appengine",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "AppceleratorTitanium.gitignore",
+    "location": "gitignores\\AppceleratorTitanium.gitignore",
+    "name": "AppceleratorTitanium",
+    "lower_name": "appceleratortitanium",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "ArchLinuxPackages.gitignore",
+    "location": "gitignores\\ArchLinuxPackages.gitignore",
+    "name": "ArchLinuxPackages",
+    "lower_name": "archlinuxpackages",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Autotools.gitignore",
+    "location": "gitignores\\Autotools.gitignore",
+    "name": "Autotools",
+    "lower_name": "autotools",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "C++.gitignore",
+    "location": "gitignores\\C++.gitignore",
+    "name": "C++",
+    "lower_name": "c++",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "C.gitignore",
+    "location": "gitignores\\C.gitignore",
+    "name": "C",
+    "lower_name": "c",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "CFWheels.gitignore",
+    "location": "gitignores\\CFWheels.gitignore",
+    "name": "CFWheels",
+    "lower_name": "cfwheels",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "CMake.gitignore",
+    "location": "gitignores\\CMake.gitignore",
+    "name": "CMake",
+    "lower_name": "cmake",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "CONTRIBUTING.md",
+    "location": "gitignores\\CONTRIBUTING.md",
+    "name": "CONTRIBUTING",
+    "lower_name": "contributing",
+    "extension": ".md"
+  },
+  {
+    "filename": "CUDA.gitignore",
+    "location": "gitignores\\CUDA.gitignore",
+    "name": "CUDA",
+    "lower_name": "cuda",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "CakePHP.gitignore",
+    "location": "gitignores\\CakePHP.gitignore",
+    "name": "CakePHP",
+    "lower_name": "cakephp",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "ChefCookbook.gitignore",
+    "location": "gitignores\\ChefCookbook.gitignore",
+    "name": "ChefCookbook",
+    "lower_name": "chefcookbook",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Clojure.gitignore",
+    "location": "gitignores\\Clojure.gitignore",
+    "name": "Clojure",
+    "lower_name": "clojure",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "CodeIgniter.gitignore",
+    "location": "gitignores\\CodeIgniter.gitignore",
+    "name": "CodeIgniter",
+    "lower_name": "codeigniter",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "CommonLisp.gitignore",
+    "location": "gitignores\\CommonLisp.gitignore",
+    "name": "CommonLisp",
+    "lower_name": "commonlisp",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Composer.gitignore",
+    "location": "gitignores\\Composer.gitignore",
+    "name": "Composer",
+    "lower_name": "composer",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Concrete5.gitignore",
+    "location": "gitignores\\Concrete5.gitignore",
+    "name": "Concrete5",
+    "lower_name": "concrete5",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Coq.gitignore",
+    "location": "gitignores\\Coq.gitignore",
+    "name": "Coq",
+    "lower_name": "coq",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "CraftCMS.gitignore",
+    "location": "gitignores\\CraftCMS.gitignore",
+    "name": "CraftCMS",
+    "lower_name": "craftcms",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "D.gitignore",
+    "location": "gitignores\\D.gitignore",
+    "name": "D",
+    "lower_name": "d",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "DM.gitignore",
+    "location": "gitignores\\DM.gitignore",
+    "name": "DM",
+    "lower_name": "dm",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Dart.gitignore",
+    "location": "gitignores\\Dart.gitignore",
+    "name": "Dart",
+    "lower_name": "dart",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Delphi.gitignore",
+    "location": "gitignores\\Delphi.gitignore",
+    "name": "Delphi",
+    "lower_name": "delphi",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Drupal.gitignore",
+    "location": "gitignores\\Drupal.gitignore",
+    "name": "Drupal",
+    "lower_name": "drupal",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "EPiServer.gitignore",
+    "location": "gitignores\\EPiServer.gitignore",
+    "name": "EPiServer",
+    "lower_name": "episerver",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Eagle.gitignore",
+    "location": "gitignores\\Eagle.gitignore",
+    "name": "Eagle",
+    "lower_name": "eagle",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Elisp.gitignore",
+    "location": "gitignores\\Elisp.gitignore",
+    "name": "Elisp",
+    "lower_name": "elisp",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Elixir.gitignore",
+    "location": "gitignores\\Elixir.gitignore",
+    "name": "Elixir",
+    "lower_name": "elixir",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Elm.gitignore",
+    "location": "gitignores\\Elm.gitignore",
+    "name": "Elm",
+    "lower_name": "elm",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Erlang.gitignore",
+    "location": "gitignores\\Erlang.gitignore",
+    "name": "Erlang",
+    "lower_name": "erlang",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "ExpressionEngine.gitignore",
+    "location": "gitignores\\ExpressionEngine.gitignore",
+    "name": "ExpressionEngine",
+    "lower_name": "expressionengine",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "ExtJs.gitignore",
+    "location": "gitignores\\ExtJs.gitignore",
+    "name": "ExtJs",
+    "lower_name": "extjs",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Fancy.gitignore",
+    "location": "gitignores\\Fancy.gitignore",
+    "name": "Fancy",
+    "lower_name": "fancy",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Finale.gitignore",
+    "location": "gitignores\\Finale.gitignore",
+    "name": "Finale",
+    "lower_name": "finale",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "ForceDotCom.gitignore",
+    "location": "gitignores\\ForceDotCom.gitignore",
+    "name": "ForceDotCom",
+    "lower_name": "forcedotcom",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Fortran.gitignore",
+    "location": "gitignores\\Fortran.gitignore",
+    "name": "Fortran",
+    "lower_name": "fortran",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "FuelPHP.gitignore",
+    "location": "gitignores\\FuelPHP.gitignore",
+    "name": "FuelPHP",
+    "lower_name": "fuelphp",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "GWT.gitignore",
+    "location": "gitignores\\GWT.gitignore",
+    "name": "GWT",
+    "lower_name": "gwt",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Gcov.gitignore",
+    "location": "gitignores\\Gcov.gitignore",
+    "name": "Gcov",
+    "lower_name": "gcov",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "GitBook.gitignore",
+    "location": "gitignores\\GitBook.gitignore",
+    "name": "GitBook",
+    "lower_name": "gitbook",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Go.gitignore",
+    "location": "gitignores\\Go.gitignore",
+    "name": "Go",
+    "lower_name": "go",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Godot.gitignore",
+    "location": "gitignores\\Godot.gitignore",
+    "name": "Godot",
+    "lower_name": "godot",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Gradle.gitignore",
+    "location": "gitignores\\Gradle.gitignore",
+    "name": "Gradle",
+    "lower_name": "gradle",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Grails.gitignore",
+    "location": "gitignores\\Grails.gitignore",
+    "name": "Grails",
+    "lower_name": "grails",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Haskell.gitignore",
+    "location": "gitignores\\Haskell.gitignore",
+    "name": "Haskell",
+    "lower_name": "haskell",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "IGORPro.gitignore",
+    "location": "gitignores\\IGORPro.gitignore",
+    "name": "IGORPro",
+    "lower_name": "igorpro",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Idris.gitignore",
+    "location": "gitignores\\Idris.gitignore",
+    "name": "Idris",
+    "lower_name": "idris",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "JBoss.gitignore",
+    "location": "gitignores\\JBoss.gitignore",
+    "name": "JBoss",
+    "lower_name": "jboss",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "JENKINS_HOME.gitignore",
+    "location": "gitignores\\JENKINS_HOME.gitignore",
+    "name": "JENKINS_HOME",
+    "lower_name": "jenkins_home",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Java.gitignore",
+    "location": "gitignores\\Java.gitignore",
+    "name": "Java",
+    "lower_name": "java",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Jekyll.gitignore",
+    "location": "gitignores\\Jekyll.gitignore",
+    "name": "Jekyll",
+    "lower_name": "jekyll",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Joomla.gitignore",
+    "location": "gitignores\\Joomla.gitignore",
+    "name": "Joomla",
+    "lower_name": "joomla",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Julia.gitignore",
+    "location": "gitignores\\Julia.gitignore",
+    "name": "Julia",
+    "lower_name": "julia",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "KiCad.gitignore",
+    "location": "gitignores\\KiCad.gitignore",
+    "name": "KiCad",
+    "lower_name": "kicad",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Kohana.gitignore",
+    "location": "gitignores\\Kohana.gitignore",
+    "name": "Kohana",
+    "lower_name": "kohana",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Kotlin.gitignore",
+    "location": "gitignores\\Kotlin.gitignore",
+    "name": "Kotlin",
+    "lower_name": "kotlin",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "LICENSE",
+    "location": "gitignores\\LICENSE",
+    "name": "LICENSE",
+    "lower_name": "license",
+    "extension": ""
+  },
+  {
+    "filename": "LabVIEW.gitignore",
+    "location": "gitignores\\LabVIEW.gitignore",
+    "name": "LabVIEW",
+    "lower_name": "labview",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Laravel.gitignore",
+    "location": "gitignores\\Laravel.gitignore",
+    "name": "Laravel",
+    "lower_name": "laravel",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Leiningen.gitignore",
+    "location": "gitignores\\Leiningen.gitignore",
+    "name": "Leiningen",
+    "lower_name": "leiningen",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "LemonStand.gitignore",
+    "location": "gitignores\\LemonStand.gitignore",
+    "name": "LemonStand",
+    "lower_name": "lemonstand",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Lilypond.gitignore",
+    "location": "gitignores\\Lilypond.gitignore",
+    "name": "Lilypond",
+    "lower_name": "lilypond",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Lithium.gitignore",
+    "location": "gitignores\\Lithium.gitignore",
+    "name": "Lithium",
+    "lower_name": "lithium",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Lua.gitignore",
+    "location": "gitignores\\Lua.gitignore",
+    "name": "Lua",
+    "lower_name": "lua",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Magento.gitignore",
+    "location": "gitignores\\Magento.gitignore",
+    "name": "Magento",
+    "lower_name": "magento",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Maven.gitignore",
+    "location": "gitignores\\Maven.gitignore",
+    "name": "Maven",
+    "lower_name": "maven",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Mercury.gitignore",
+    "location": "gitignores\\Mercury.gitignore",
+    "name": "Mercury",
+    "lower_name": "mercury",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "MetaProgrammingSystem.gitignore",
+    "location": "gitignores\\MetaProgrammingSystem.gitignore",
+    "name": "MetaProgrammingSystem",
+    "lower_name": "metaprogrammingsystem",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Nanoc.gitignore",
+    "location": "gitignores\\Nanoc.gitignore",
+    "name": "Nanoc",
+    "lower_name": "nanoc",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Nim.gitignore",
+    "location": "gitignores\\Nim.gitignore",
+    "name": "Nim",
+    "lower_name": "nim",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Node.gitignore",
+    "location": "gitignores\\Node.gitignore",
+    "name": "Node",
+    "lower_name": "node",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "OCaml.gitignore",
+    "location": "gitignores\\OCaml.gitignore",
+    "name": "OCaml",
+    "lower_name": "ocaml",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Objective-C.gitignore",
+    "location": "gitignores\\Objective-C.gitignore",
+    "name": "Objective-C",
+    "lower_name": "objective-c",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Opa.gitignore",
+    "location": "gitignores\\Opa.gitignore",
+    "name": "Opa",
+    "lower_name": "opa",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "OpenCart.gitignore",
+    "location": "gitignores\\OpenCart.gitignore",
+    "name": "OpenCart",
+    "lower_name": "opencart",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "OracleForms.gitignore",
+    "location": "gitignores\\OracleForms.gitignore",
+    "name": "OracleForms",
+    "lower_name": "oracleforms",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Packer.gitignore",
+    "location": "gitignores\\Packer.gitignore",
+    "name": "Packer",
+    "lower_name": "packer",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Perl.gitignore",
+    "location": "gitignores\\Perl.gitignore",
+    "name": "Perl",
+    "lower_name": "perl",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Phalcon.gitignore",
+    "location": "gitignores\\Phalcon.gitignore",
+    "name": "Phalcon",
+    "lower_name": "phalcon",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "PlayFramework.gitignore",
+    "location": "gitignores\\PlayFramework.gitignore",
+    "name": "PlayFramework",
+    "lower_name": "playframework",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Plone.gitignore",
+    "location": "gitignores\\Plone.gitignore",
+    "name": "Plone",
+    "lower_name": "plone",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Prestashop.gitignore",
+    "location": "gitignores\\Prestashop.gitignore",
+    "name": "Prestashop",
+    "lower_name": "prestashop",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Processing.gitignore",
+    "location": "gitignores\\Processing.gitignore",
+    "name": "Processing",
+    "lower_name": "processing",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "PureScript.gitignore",
+    "location": "gitignores\\PureScript.gitignore",
+    "name": "PureScript",
+    "lower_name": "purescript",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Python.gitignore",
+    "location": "gitignores\\Python.gitignore",
+    "name": "Python",
+    "lower_name": "python",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Qooxdoo.gitignore",
+    "location": "gitignores\\Qooxdoo.gitignore",
+    "name": "Qooxdoo",
+    "lower_name": "qooxdoo",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Qt.gitignore",
+    "location": "gitignores\\Qt.gitignore",
+    "name": "Qt",
+    "lower_name": "qt",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "R.gitignore",
+    "location": "gitignores\\R.gitignore",
+    "name": "R",
+    "lower_name": "r",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "README.md",
+    "location": "gitignores\\README.md",
+    "name": "README",
+    "lower_name": "readme",
+    "extension": ".md"
+  },
+  {
+    "filename": "ROS.gitignore",
+    "location": "gitignores\\ROS.gitignore",
+    "name": "ROS",
+    "lower_name": "ros",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Rails.gitignore",
+    "location": "gitignores\\Rails.gitignore",
+    "name": "Rails",
+    "lower_name": "rails",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Raku.gitignore",
+    "location": "gitignores\\Raku.gitignore",
+    "name": "Raku",
+    "lower_name": "raku",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "RhodesRhomobile.gitignore",
+    "location": "gitignores\\RhodesRhomobile.gitignore",
+    "name": "RhodesRhomobile",
+    "lower_name": "rhodesrhomobile",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Ruby.gitignore",
+    "location": "gitignores\\Ruby.gitignore",
+    "name": "Ruby",
+    "lower_name": "ruby",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Rust.gitignore",
+    "location": "gitignores\\Rust.gitignore",
+    "name": "Rust",
+    "lower_name": "rust",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "SCons.gitignore",
+    "location": "gitignores\\SCons.gitignore",
+    "name": "SCons",
+    "lower_name": "scons",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Sass.gitignore",
+    "location": "gitignores\\Sass.gitignore",
+    "name": "Sass",
+    "lower_name": "sass",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Scala.gitignore",
+    "location": "gitignores\\Scala.gitignore",
+    "name": "Scala",
+    "lower_name": "scala",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Scheme.gitignore",
+    "location": "gitignores\\Scheme.gitignore",
+    "name": "Scheme",
+    "lower_name": "scheme",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Scrivener.gitignore",
+    "location": "gitignores\\Scrivener.gitignore",
+    "name": "Scrivener",
+    "lower_name": "scrivener",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Sdcc.gitignore",
+    "location": "gitignores\\Sdcc.gitignore",
+    "name": "Sdcc",
+    "lower_name": "sdcc",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "SeamGen.gitignore",
+    "location": "gitignores\\SeamGen.gitignore",
+    "name": "SeamGen",
+    "lower_name": "seamgen",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "SketchUp.gitignore",
+    "location": "gitignores\\SketchUp.gitignore",
+    "name": "SketchUp",
+    "lower_name": "sketchup",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Smalltalk.gitignore",
+    "location": "gitignores\\Smalltalk.gitignore",
+    "name": "Smalltalk",
+    "lower_name": "smalltalk",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Stella.gitignore",
+    "location": "gitignores\\Stella.gitignore",
+    "name": "Stella",
+    "lower_name": "stella",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "SugarCRM.gitignore",
+    "location": "gitignores\\SugarCRM.gitignore",
+    "name": "SugarCRM",
+    "lower_name": "sugarcrm",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Swift.gitignore",
+    "location": "gitignores\\Swift.gitignore",
+    "name": "Swift",
+    "lower_name": "swift",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Symfony.gitignore",
+    "location": "gitignores\\Symfony.gitignore",
+    "name": "Symfony",
+    "lower_name": "symfony",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "SymphonyCMS.gitignore",
+    "location": "gitignores\\SymphonyCMS.gitignore",
+    "name": "SymphonyCMS",
+    "lower_name": "symphonycms",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "TeX.gitignore",
+    "location": "gitignores\\TeX.gitignore",
+    "name": "TeX",
+    "lower_name": "tex",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Terraform.gitignore",
+    "location": "gitignores\\Terraform.gitignore",
+    "name": "Terraform",
+    "lower_name": "terraform",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Textpattern.gitignore",
+    "location": "gitignores\\Textpattern.gitignore",
+    "name": "Textpattern",
+    "lower_name": "textpattern",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "TurboGears2.gitignore",
+    "location": "gitignores\\TurboGears2.gitignore",
+    "name": "TurboGears2",
+    "lower_name": "turbogears2",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "TwinCAT3.gitignore",
+    "location": "gitignores\\TwinCAT3.gitignore",
+    "name": "TwinCAT3",
+    "lower_name": "twincat3",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Typo3.gitignore",
+    "location": "gitignores\\Typo3.gitignore",
+    "name": "Typo3",
+    "lower_name": "typo3",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Umbraco.gitignore",
+    "location": "gitignores\\Umbraco.gitignore",
+    "name": "Umbraco",
+    "lower_name": "umbraco",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Unity.gitignore",
+    "location": "gitignores\\Unity.gitignore",
+    "name": "Unity",
+    "lower_name": "unity",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "UnrealEngine.gitignore",
+    "location": "gitignores\\UnrealEngine.gitignore",
+    "name": "UnrealEngine",
+    "lower_name": "unrealengine",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "VVVV.gitignore",
+    "location": "gitignores\\VVVV.gitignore",
+    "name": "VVVV",
+    "lower_name": "vvvv",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "VisualStudio.gitignore",
+    "location": "gitignores\\VisualStudio.gitignore",
+    "name": "VisualStudio",
+    "lower_name": "visualstudio",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Waf.gitignore",
+    "location": "gitignores\\Waf.gitignore",
+    "name": "Waf",
+    "lower_name": "waf",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "WordPress.gitignore",
+    "location": "gitignores\\WordPress.gitignore",
+    "name": "WordPress",
+    "lower_name": "wordpress",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Xojo.gitignore",
+    "location": "gitignores\\Xojo.gitignore",
+    "name": "Xojo",
+    "lower_name": "xojo",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Yeoman.gitignore",
+    "location": "gitignores\\Yeoman.gitignore",
+    "name": "Yeoman",
+    "lower_name": "yeoman",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Yii.gitignore",
+    "location": "gitignores\\Yii.gitignore",
+    "name": "Yii",
+    "lower_name": "yii",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "ZendFramework.gitignore",
+    "location": "gitignores\\ZendFramework.gitignore",
+    "name": "ZendFramework",
+    "lower_name": "zendframework",
+    "extension": ".gitignore"
+  },
+  {
+    "filename": "Zephir.gitignore",
+    "location": "gitignores\\Zephir.gitignore",
+    "name": "Zephir",
+    "lower_name": "zephir",
+    "extension": ".gitignore"
+  }
+]
