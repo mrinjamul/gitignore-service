@@ -97,6 +97,7 @@ func saveToFile(filename string, data interface{}) error {
 	return err
 }
 
+// GetMetadata return files metadata
 func GetMetadata(path string) ([]Metadata, error) {
 	if path == "" {
 		path = "./gitignore-metadata.json"
@@ -119,6 +120,7 @@ func GetMetadata(path string) ([]Metadata, error) {
 	return metadata, nil
 }
 
+// SearchForGi is a search engine for the gitignores
 func SearchForGi(query string) ([]Metadata, error) {
 	results := []Metadata{}
 
@@ -140,4 +142,18 @@ func SearchForGi(query string) ([]Metadata, error) {
 	}
 
 	return results, nil
+}
+
+// ReadGitignore reads the contents of a file specified by the given path
+// and returns the file's content as a byte slice along with any error encountered.
+func ReadGitignore(path string) ([]byte, error) {
+	// Read the file at the given path
+	content, err := os.ReadFile(path)
+	if err != nil {
+		// Return the error if the file could not be read
+		return nil, err
+	}
+
+	// Return the file content as a byte slice
+	return content, nil
 }
