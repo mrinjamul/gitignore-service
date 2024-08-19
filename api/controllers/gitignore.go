@@ -8,31 +8,53 @@ import (
 )
 
 type Gitignore interface {
-	List(ctx *gin.Context)
-	Get(ctx *gin.Context)
+	List(ctx *gin.Context, metadata *[]utils.Metadata)
+	Get(ctx *gin.Context, metadata *[]utils.Metadata)
 }
 
 type gitignore struct {
 }
 
-func (gitignore *gitignore) List(ctx *gin.Context) {
-	metadata, err := utils.GetMetadata("")
-	if err != nil {
-		ctx.JSON(http.StatusOK, gin.H{
-			"message": "something went wrong",
-			"error":   err,
+func (gitignore *gitignore) List(ctx *gin.Context, metadata *[]utils.Metadata) {
+	lang := ctx.Query("for")
+	if lang != "" {
+		meta, _ := utils.SearchForGi(lang)
+		if len(meta) != 0 {
+			ctx.JSON(http.StatusOK, gin.H{
+				"message":    "success",
+				"gitignores": meta,
+			})
+			return
+		}
+
+		ctx.JSON(http.StatusNotFound, gin.H{
+			"message": "no gitignore found",
 		})
-		return
 	}
+
 	ctx.JSON(http.StatusOK, gin.H{
 		"message":    "success",
 		"gitignores": metadata,
 	})
 }
 
-func (gitignore *gitignore) Get(ctx *gin.Context) {
-	ctx.JSON(http.StatusOK, gin.H{
-		"message": "return a specific git ignore contents",
+func (gitignore *gitignore) Get(ctx *gin.Context, metadata *[]utils.Metadata) {
+	lang := ctx.Query("for")
+	if lang == "" {
+		lang = "go"
+	}
+
+	meta, _ := utils.SearchForGi(lang)
+	if len(meta) != 0 {
+		ctx.JSON(http.StatusOK, gin.H{
+			"message":   "success",
+			"gitignore": meta[0],
+		})
+		return
+	}
+
+	ctx.JSON(http.StatusNotFound, gin.H{
+		"message": "no gitignore found",
 	})
 }
 

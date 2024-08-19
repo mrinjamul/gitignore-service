@@ -17,6 +17,8 @@ type Metadata struct {
 	Extension string `json:"extension"`
 }
 
+var metadataList = []Metadata{}
+
 // GenerateMetadata recursively scans the given directory and returns a slice of FileMetadata objects.
 func GenerateMetadata(rootDir string) ([]Metadata, error) {
 	var metadata []Metadata
@@ -113,6 +115,29 @@ func GetMetadata(path string) ([]Metadata, error) {
 	if err != nil {
 		return metadata, err
 	}
-
+	metadataList = metadata
 	return metadata, nil
+}
+
+func SearchForGi(query string) ([]Metadata, error) {
+	results := []Metadata{}
+
+	if len(metadataList) == 0 {
+		return results, errors.New("no data found")
+	}
+
+	query = strings.TrimSpace(query)
+	query = strings.ToLower(query)
+
+	for _, m := range metadataList {
+		if strings.HasPrefix(m.LowerName, query) {
+			results = append(results, m)
+		}
+	}
+
+	if len(results) == 0 {
+		return results, errors.New("no matches found")
+	}
+
+	return results, nil
 }

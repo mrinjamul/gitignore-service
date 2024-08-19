@@ -1,11 +1,13 @@
 package routes
 
 import (
+	"log"
 	"time"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/mrinjamul/gitignore-service/api/services"
+	"github.com/mrinjamul/gitignore-service/utils"
 )
 
 var (
@@ -37,6 +39,11 @@ func InitRoutes(routes *gin.Engine) {
 	// Process the templates at the start so that they don't have to be loaded
 	// from the disk again. This makes serving HTML pages very fast.
 	routes.LoadHTMLGlob("templates/**/*")
+	metadata := []utils.Metadata{}
+	metadata, err := utils.GetMetadata("")
+	if err != nil {
+		log.Printf("Error reading metadata: %v \n", err)
+	}
 	// serve static pages under static folder
 	routes.GET("/static/*filepath", func(ctx *gin.Context) {
 		ctx.File("templates/static/" + ctx.Param("filepath"))
@@ -56,10 +63,10 @@ func InitRoutes(routes *gin.Engine) {
 		gitignore := api.Group("/gi")
 		{
 			gitignore.GET("/", func(ctx *gin.Context) {
-				svc.GitignoreService().List(ctx)
+				svc.GitignoreService().List(ctx, &metadata)
 			})
 			gitignore.GET("/get", func(ctx *gin.Context) {
-				svc.GitignoreService().Get(ctx)
+				svc.GitignoreService().Get(ctx, &metadata)
 			})
 		}
 
