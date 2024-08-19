@@ -1,0 +1,23 @@
+#!/bin/bash
+
+function make_request() {
+  # Check if the URL is empty
+  if [[ -z "$1" ]]; then
+    echo "No URL provided."
+    return
+  fi
+
+  # Make a request to the URL
+  response=$(curl -s "$1")
+
+  # Return the response
+  echo "$response"
+}
+
+./bin/build.sh
+./bin/push.sh
+
+# deploy by hook
+# make_request $1 # enable if you have any webhooks to deploy your service
+
+echo "Done!"
