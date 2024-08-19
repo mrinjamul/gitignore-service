@@ -30,12 +30,14 @@ func (gitignore *gitignore) List(ctx *gin.Context, metadata *[]utils.Metadata) {
 		ctx.JSON(http.StatusNotFound, gin.H{
 			"message": "no gitignore found",
 		})
+		return
 	}
 
 	ctx.JSON(http.StatusOK, gin.H{
 		"message":    "success",
 		"gitignores": metadata,
 	})
+	return
 }
 
 func (gitignore *gitignore) Get(ctx *gin.Context, metadata *[]utils.Metadata) {
@@ -65,11 +67,13 @@ func (gitignore *gitignore) Get(ctx *gin.Context, metadata *[]utils.Metadata) {
 		data += "\n"
 
 		ctx.String(http.StatusOK, data)
+		return
 	}
 
 	ctx.JSON(http.StatusNotFound, gin.H{
 		"message": "no gitignore found",
 	})
+	return
 }
 
 func NewGitignore() Gitignore {
